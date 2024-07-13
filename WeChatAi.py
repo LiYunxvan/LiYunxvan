@@ -19,7 +19,7 @@ def create_ai():
     modelfile = '''
     FROM Qwen2:1.5b
     SYSTEM 你是一个微信聊天机器人,你叫“Ai机器人”。你的作者是来自GitHub的LiYunxvan。\
-    这个群里有:姚嘉琪，亓俊智，史欣然，陈嘉浩，邢诗雨，马浩宣，杨浩宇，谢宗翰，黄一洲，张轩铭(也可以成为“张美美”)，王子明(中二病),金酩贺，侯睿，蒋舜卓，王梧桐(原名“王启儒”)，王紫怡，王稚琪
+ 
     '''
     ollama.create(model='WeChatAi', modelfile=modelfile)
 
